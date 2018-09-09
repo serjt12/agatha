@@ -1,0 +1,63 @@
+@media (min-width: 200px) {
+  .home-inner-container {
+    position: relative;
+  }
+  .background {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+  }
+  .agatha-container{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .agatha-band {
+    position: absolute;
+    width: 289px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  .agatha-logo {
+    width: 200px;
+    position: absolute;
+    bottom: 142px;
+  }
+  .playbox {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+  }
+  .playbtn {
+    width: 60px;
+    align-self: center;
+  }
+  .playtext {
+    width: 172px;
+  }
+  .video-container {
+    position: absolute;
+    top: 197px;
+  }
+}
+@media (min-width: 568px) {
+  .playtext {
+    width: 200px;
+  }
+  .agatha-band {
+    width: 371px;
+  }
+  .agatha-logo {
+    width: 234px;
+    bottom: 188px;
+  }
+  .video-container {
+    position: absolute;
+    top: 160px;
+    right: 10px;
+  }
+}
